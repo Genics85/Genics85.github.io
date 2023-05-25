@@ -2,6 +2,8 @@ import PrimaryButton, { SecondaryButton } from "./assets/PrimaryButton";
 import TechStacks from "./assets/TechStacks";
 import { techStack } from "./assets/data";
 import resumePDF from "./assets/Eugene_Amo_Agyemang-CV.pdf";
+import pic from "./assets/port2.jpg";
+
 
 function About() {
   const handleDownload = () => {
@@ -25,10 +27,13 @@ function About() {
               solutions that make a difference.
             </p>
             <div className="flex row space-x-4">
+              <div className="hidden">
+
               <PrimaryButton
                 text="View Portfolio"
                 icon={"emojione-monotone:right-arrow"}
               />
+              </div>
               <div
                 onClick={() => {
                   handleDownload();
@@ -38,7 +43,14 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="bg-primary w-full h-full md:w-1/2">something</div>
+          <div className="bg-primary w-full h-full md:w-1/2 " >
+          <img
+              src={pic}
+              className="w-full h-full "
+            
+              alt="my picture"
+            />
+          </div>
         </section>
         <section className="flex-flex-col space-y-4">
           <div className="flex flex-row justify-start items-center space-x-4">

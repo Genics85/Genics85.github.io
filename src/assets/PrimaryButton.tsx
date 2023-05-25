@@ -15,7 +15,7 @@ function PrimaryButton({text,icon}:buttonProps):JSX.Element {
 }
 export function SecondaryButton({text,icon}:buttonProps):JSX.Element {
   return (
-    <div className='bg-darkPrimary space-x-3 flex cursor-pointer flex-row justify-center items-center px-4 max-w-fit h-10 rounded-md text-white hover:bg-cardGrey'>
+    <div className='bg-darkPrimary space-x-3 flex cursor-pointer flex-row justify-center items-center px-4 max-w-fit h-10 rounded-md text-white hover:bg-secondaryHover'>
         <InlineIcon icon={icon}/>
         <h5 className='text-1xl'>{text}</h5>
     </div>
