@@ -11,7 +11,7 @@ function About() {
   };
 
   return (
-    <main>
+    <main className="w-full">
       <div className="container p-10 flex flex-col space-y-9">
         <section className="flex flex-col-reverse md:flex-row md:space-x-4 space-y-4">
           <div className="flex flex-col space-y-4 justify-start w-full md:w-1/2">

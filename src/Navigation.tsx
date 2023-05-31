@@ -87,6 +87,7 @@ function Navigation() {
             </a>
           </div>
           <hr className="border-white h-1 w-full " />
+          <div className="flex flex-col justify-start space-y-3">
           <Link
             to={"/about"}
             className="flex items-center space-x-3 cursor-pointer hover:text-darkPrimary"
@@ -110,7 +111,7 @@ function Navigation() {
           </Link>
           <Link
             to={"/contact"}
-            className="hidden flex items-center space-x-3 cursor-pointer hover:text-darkPrimary"
+            className=" flex items-center space-x-3 cursor-pointer hover:text-darkPrimary"
           >
             <InlineIcon
               className="text-2xl"
@@ -118,6 +119,8 @@ function Navigation() {
             />
             <h3 className="font-bold text-lg ">Contact</h3>
           </Link>
+          </div>
+          
         </div>
       </nav>
     </div>
